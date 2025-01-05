@@ -1,0 +1,55 @@
+Sistema de Gestión de Inventario
+Descripción
+Este proyecto es un sistema de gestión de inventario de productos que permite a los usuarios agregar, consultar, actualizar y eliminar productos de un inventario. El sistema también permite generar un reporte de bajo stock.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Estructura del Proyecto
+
+El proyecto consta de los siguientes archivos:
+
+main.py: El archivo principal que contiene el menú de gestión de inventario.
+
+base_datos.py: El archivo que contiene la función para inicializar la base de datos.
+
+funcionalidades.py: El archivo que contiene las funciones para agregar, consultar, actualizar y eliminar productos, así como generar el reporte de bajo stock.
+
+inventario.db: La base de datos que almacena la información de los productos.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Funcionalidades
+
+El sistema de gestión de inventario ofrece las siguientes funcionalidades:
+
+Agregar producto: Permite agregar un nuevo producto al inventario.
+
+Consultar productos: Permite consultar la lista de productos existentes en el inventario.
+
+Actualizar cantidad de producto: Permite actualizar la cantidad de un producto existente en el inventario.
+
+Eliminar producto: Permite eliminar un producto del inventario.
+
+Generar reporte de bajo stock: Permite generar un reporte de los productos que tienen una cantidad baja en el inventario.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cómo ejecutar el sistema
+
+Para ejecutar el sistema, sigue los siguientes pasos:
+
+Asegúrate de tener Python instalado en tu computadora.
+Abre una terminal o consola y navega hasta el directorio donde se encuentra el proyecto.
+Ejecuta el comando python main.py para iniciar el menú de gestión de inventario.
+Sigue las instrucciones en el menú para agregar, consultar, actualizar y eliminar productos, o generar un reporte de bajo stock.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Requisitos
+Python 3.x
+SQLite (incluido en el proyecto)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Licencia
+Este proyecto es de código abierto y se distribuye bajo la licencia MIT.
